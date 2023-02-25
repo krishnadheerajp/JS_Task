@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Demo</title>
+    <script src="js/valid1.js"> </script>
+    <style>
+        #details{
+            margin: 20px;
+        }
+        .marksform{
+            background-color: lightblue;
+            padding: 15px;
+            border-radius: 25px;
+            max-width: 90vh;
+        }
+    </style>
+</head>
+<body>
+   <div class="marksform">
+    <h2>Student Marks Details</h2>
+    <form name="frm1" action=""> <br>
+        <label for="username">Name:</label>
+        <input type="text" name="username"> <br> <br>
+        <label for="marks">Marks:</label> <br> <br>
+        <label for="maths">Maths</label>
+        <input type="text" name="mathmarks">
+        <label for="english">English</label>
+        <input type="text" name="engmarks">
+        <label for="computer">Computer</label>
+        <input type="text" name="compmarks">
+        <br> <br>
+
+        <label for="totalmarks">Total Marks</label>
+        <input type="text" name="totalmarks" id="tmarks">
+        <label for="permarks">% Marks</label>
+        <input type="text" name="permarks" id="permarks"> <br> <br>
+        <label for="maxmarks">Maximum Marks</label>
+        <input type="text" name="maxmarks" id="maxmarks">
+        <br> <br>
+        <input type="button" value="Submit" onclick="return csub();">
+    </form>
+
+    <div id="details"></div>
+   </div>
+</body>
+</html>
